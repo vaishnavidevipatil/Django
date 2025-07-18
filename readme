@@ -1,0 +1,22 @@
+step 1
+env1
+django-admin startproject demo
+
+step 2
+python manage.py startapp myapp
+
+step 3 migrate database
+(a) python manage.py makemigrations
+(b) python manage.py migrate
+
+step 4 admin pannel
+python manage.py createsuperuser
+
+now /admin
+Django Adminstartion
+
+Route
+
+<!-- https://www.youtube.com/watch?v=nGIg40xs9e4 -->
+Video snippet:
+```python Fast learning Django with Todo App
